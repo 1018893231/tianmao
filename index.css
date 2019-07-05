@@ -834,12 +834,36 @@ input::-webkit-input-placeholder{
     width: 200px;
     height: 200px;
 }
+.two-grid2-bottom1 .zztwo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255,255, 0.2);
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    display: none;
+}
+.two-grid2-bottom1:hover .zztwo{
+    display: block;
+}
 .rightJT{
     margin-top: 73px;
     height: 86px;
     width: 230px;
     background-color: rgba(0, 0,0, 0.05);
     float: left;
+}
+.rightJT-jian{
+    width: 0;
+    height: 0;
+    border-left: 40px solid rgba(0, 0,0, 0.05);
+    border-top: 43px solid transparent;
+    border-bottom: 43px solid transparent;
+    position: absolute;
+    top: 73px;
+    left: 230px;
+    z-index: 100;
 }
 .rightJT-top{
     width: 200px;
